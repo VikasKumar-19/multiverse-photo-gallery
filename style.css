@@ -1,0 +1,16 @@
+@font-face {
+  font-family: galleryProjectFontOne;
+  src: url('./assets/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu3cOWxw.woff2');
+}
+@font-face {
+  font-family: galleryProjectFontTwo;
+  src: url('./assets/fonts/fa-brands-400.woff2');
+}
+@font-face {
+  font-family: galleryProjectFontThree;
+  src: url('./assets/fonts/fa-solid-900.woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
