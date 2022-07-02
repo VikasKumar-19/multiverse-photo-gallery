@@ -10,8 +10,22 @@
   <body>
     <main class="main min-h-screen py-10 bg-[#34363b]">
       <div
-        class="gallery text-sm font-semibold tracking-wider font-galleryProjectFontOne uppercase flex flex-col items-center max-w-[450px] w-full mx-auto"
+        class="relative gallery text-sm font-semibold tracking-wider font-galleryProjectFontOne uppercase sm:grid sm:grid-cols-3 sm:max-w-full sm:max-h-[85vh] sm:overflow-auto max-w-[450px] w-full sm:w-4/5 mx-auto"
       >
+    </div>
+    <div class="hidden sm:flex w-4/5 justify-between items-center px-4 mx-auto bg-[#242629] text-white h-12">
+      <div class="uppercase">Multiverse <span class="text-slate-400">By Vikas</span></div>
+      <div>About</div>
+    </div>
+      <div class="image__modal hidden fixed inset-0">
+        <div
+          class="modal__content relative max-w-lg sm:max-w-[60%] mx-auto z-40 w-full top-2/4 -translate-y-1/2 transition-all duration-1000"
+        >
+          <!-- <img class="w-full" src="./assets/images/03.jpg"/> -->
+        </div>
+        <div
+          class="fixed inset-0 bg-clip-padding backdrop-filter bg-[#34363b]/40 backdrop-blur-[8px]"
+        ></div>
       </div>
     </main>
     <script src="main.js"></script>
